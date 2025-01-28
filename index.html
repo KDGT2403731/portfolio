@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="様々な曲のジャンルを作り上げる会社です。">
+    <meta name="keywords" content="シバユー, ポートフォリオ, Sharp#Tunes, シャープテューンズ, 洋楽, K-POP, 音楽、アニメ">
+    <title>芝川 雄也 ポートフォリオ</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header class="header hamburger-menu">
+            <h1><a href="#" class="header__logo">#PORTFOLIO PAGE</a></h1>
+            <input type="checkbox" name="hamburger" id="hamburger" class="hamburger-menu__input"/>
+            <label for="hamburger" class="hamburger-menu__bg"></label>
+            <ul class="header__list hamburger-menu__list">
+                <li class="header__list-item"><a href="#about" class="header__list-link">#私について</a></li>
+                <li class="header__list-item"><a href="#skill" class="header__list-link">#使用言語</a></li>
+                <li class="header__list-item"><a href="#subject" class="header__list-link">#課題</a></li>
+            </ul>
+            <label for="hamburger" class="hamburger-menu__button">
+                <span class="hamburger-menu__button-mark"></span>
+                <span class="hamburger-menu__button-mark"></span>
+                <span class="hamburger-menu__button-mark"></span>
+            </label>
+        </header>
+        <div class="padding"></div>
+        <section id="about" class="about">
+            <img src="img/IMG_3397.jpg" alt="シバユー" class="about-img">
+            <div class="about-content">
+                <h1 class="about-name">芝雄(シバユー)</h1>
+                <h1 class="about-file">誕生日:2005年6月16日</h1>
+                <h1 class="about-file">出身地：千葉県印西市(巨大ショッピングセンターなどが並ぶ緑豊かな街)</h1>
+                <p class="about-caption">小さい頃から、パソコンやスマホを使って、編集ソフトで写真や動画を編集し、自分オリジナルの作品を作ることが大好きだった。英語も得意であり、小さい頃からアニメをYouTubeで英語で見ていたので英語を自然に覚えた。
+                    出身校は屋久島おおぞら高等学校で、柏キャンパスのプログラミングコースに通い、レゴマインドストームで作ったロボットや車をプログラミングで動かしていた。</p>
+            </div>
+        </section>
+        <section class="about-2">
+            <ul class="about-box">
+                <h1>推しのアニメ</h1>
+                <li>スポンジ・ボブ</li>
+                <li>カーズ</li>
+                <li>トムとジェリー</li>
+                <li>ポケットモンスター（2023年）</li>
+            </ul>
+        </section>
+        <section id="skill" class="skill">
+			<div class="skill-title">
+				<h2>Programming</h2>
+				<span>使用言語・ツール</span>
+			</div>
+			<ul class="skill-list">
+				<li class="skill-item">
+					<img src="img/Python-logo-notext.png" alt="">
+					<span>Python</span>
+				</li>
+				<li class="skill-item">
+					<img src="img/Django_logo.png" alt="">
+					<span>Django</span>
+				</li>
+				<li class="skill-item">
+					<img src="img/HTML5_logo_and_wordmark.png" alt="">
+					<span>HTML5</span>
+				</li>
+				<li class="skill-item">
+					<img src="img/CSS3_logo_and_wordmark.png" alt="">
+					<span>CSS3</span>
+				</li>
+				<li class="skill-item">
+					<img src="img/Javascript_badge.png" alt="">
+					<span>Javascript</span>
+				</li>
+			</ul>
+		</section>
+        <section id="subject" class="subject">
+            <h1 class="subject-head-title">前期の作った課題</h1>
+            <div class="subject-title">
+                <a href="https://kdgt2403731.github.io/html-portfolio/">
+                    <h3>ポートフォリオ</h3>
+                    <img src="img/スクリーンショット 2024-10-15 12.14.31.png">
+                </a>
+            </div>
+            <div class="subject-title">
+                <a href="https://kdgt2403731.github.io/test/">
+                    <h3>自己紹介サイト</h3>
+                    <img src="img/スクリーンショット 2024-10-15 12.19.12.png">
+                </a>
+            </div>
+        </section>
+        <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.8913193170783!2d140.15804647781954!3d35.80260131187762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60227d21fdf9de73%3A0x4ffbbe3bb7929237!2zQklHIEhPUCDjgqzjg7zjg4fjg7Pjg6Ljg7zjg6vljbDopb8!5e0!3m2!1sja!2sjp!4v1736212163105!5m2!1sja!2sjp" width="500" height="400"></iframe>
+        </center>
+        <center>
+            <button id="weather-btn">天気予報</button>
+            <div id="result"></div>
+            <script src="weather-forecast.js"></script>
+        </center>
+        <footer>
+            <div class="inner">Copyright Inzai All Rights Reserved</div>
+        </footer>
+    </main>
+</body>
+</html>
